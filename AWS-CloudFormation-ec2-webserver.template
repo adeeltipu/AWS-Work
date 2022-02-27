@@ -307,7 +307,7 @@ Resources:
             setsebool -P httpd_can_network_connect=1
             setsebool httpd_can_network_connect_db on
 
-            echo "<h1> Welcome to Valaxy Cloudformation Demo</h1>" >> /var/www/html/index.html
+            echo "<h1> Welcome to Adeel Akbar Cloudformation Site </h1>" >> /var/www/html/index.html
 
   DBServer:
     Type: AWS::RDS::DBInstance
